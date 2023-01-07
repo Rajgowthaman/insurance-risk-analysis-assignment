@@ -1,0 +1,9 @@
+# Implemented the algorithm
+# Did only manual testing
+#     *required fields
+#     *different datatypes in fields, eg. string in number field, etc
+#     *tested "house" and "vehicle" fields as they can have child attribute
+#     *tested integer fields with null, strings and negaative values
+#     *extensively worked on validations. Refer middleware
+# script to run the app 
+#     *npm start or node app.js 
