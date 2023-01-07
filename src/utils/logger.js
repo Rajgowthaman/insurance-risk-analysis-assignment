@@ -31,7 +31,7 @@ var transport = new winston.transports.DailyRotateFile({
   zippedArchive: true,
   maxSize: '20m',
   maxFiles: '14d',
-  dirname: "./src/logs"
+  dirname: "./logs"
 });
 exports.log = createLogger({
   level: 'info',
